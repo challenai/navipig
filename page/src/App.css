@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 30, 60);
 }
 
 .App-header {
