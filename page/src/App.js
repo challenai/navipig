@@ -50,11 +50,6 @@ function App() {
         <Box sx={{textAlign: "left"}}>
           <Card sx={{width: 1148, height: 120, marginBottom: 1, padding: 2, backgroundColor: "rgba(0,0,0,0)", border: "1px solid rgba(81, 81, 81, 1)"}} variant="outlined">
             HBase GUI tool
-            <Tabs value={value} onChange={handleChange} aria-label="basic tabs example">
-              <Tab label="user@application" {...a11yProps(0)} />
-              <Tab label="book@application" {...a11yProps(1)} />
-              <Tab label="preference@setting" {...a11yProps(2)} />
-            </Tabs>
           </Card>
         </Box>
         <div className="App-body">
